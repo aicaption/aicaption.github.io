@@ -33,6 +33,7 @@ const Header = () => {
             </div>
         </div>
 
+        <!-- Mobile Menu -->
         <div id="mobileMenu" class="md:hidden hidden bg-white dark:bg-dark-card border-t border-gray-200 dark:border-gray-700">
             <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
                 <button onclick="scrollToTop()" class="text-left py-2 font-medium hover:text-primary dark:hover:text-secondary transition">Home</button>
