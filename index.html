@@ -1125,72 +1125,9 @@ Best regards,
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
-        <div class="container mx-auto px-4 py-12">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-lg font-semibold mb-4">Product</h3>
-                    <ul class="space-y-2">
-                        <li><button onclick="scrollToSection('features')" class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-secondary transition">Features</button></li>
-                        <li><button onclick="showModal('pricing')" class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-secondary transition">Pricing</button></li>
-                        <li><button id="footerChatBtn" class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-secondary transition">Chat Demo</button></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h3 class="text-lg font-semibold mb-4">Resources</h3>
-                    <ul class="space-y-2">
-                        <li><button onclick="scrollToSection('faq')" class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-secondary transition">FAQ</button></li>
-                        <li><button onclick="showModal('blog')" class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-secondary transition">Blog</button></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h3 class="text-lg font-semibold mb-4">Company</h3>
-                    <ul class="space-y-2">
-                        <li><button onclick="showModal('about')" class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-secondary transition">About Us</button></li>
-                        <li><button onclick="showModal('contact')" class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-secondary transition">Contact</button></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h3 class="text-lg font-semibold mb-4">Legal</h3>
-                    <ul class="space-y-2">
-                        <li><button onclick="showModal('privacy')" class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-secondary transition">Privacy Policy</button></li>
-                        <li><button onclick="showModal('terms')" class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-secondary transition">Terms of Service</button></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="border-t border-gray-200 dark:border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <div class="flex items-center space-x-2 mb-4 md:mb-0">
-                    <div class="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center text-white">
-                        <i class="fas fa-stars"></i>
-                    </div>
-                    <span class="text-lg font-bold">AI<span class="gradient-text"> Caption Generator</span></span>
-                </div>
-                
-                <div class="flex space-x-6">
-                    <a href="#" class="text-gray-500 hover:text-primary dark:hover:text-secondary transition">
-                        <i class="fab fa-twitter text-xl"></i>
-                    </a>
-                    <a href="#" class="text-gray-500 hover:text-primary dark:hover:text-secondary transition">
-                        <i class="fab fa-github text-xl"></i>
-                    </a>
-                    <a href="#" class="text-gray-500 hover:text-primary dark:hover:text-secondary transition">
-                        <i class="fab fa-linkedin text-xl"></i>
-                    </a>
-                    <a href="#" class="text-gray-500 hover:text-primary dark:hover:text-secondary transition">
-                        <i class="fab fa-telegram text-xl"></i>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="text-center text-sm text-gray-500 dark:text-gray-400 mt-8">
-                <p>© 2026 AI Caption Generator. All rights reserved. Powered by Google's Gemini technology.</p>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-placeholder"></div>
+
+    <script type="module" src="script.js"></script>
 
     <!-- Floating Chat Button -->
     <button id="floatingChatBtn" class="fixed bottom-8 right-8 chat-float-btn w-16 h-16 gradient-bg rounded-full flex items-center justify-center text-white text-2xl shadow-xl hover:shadow-2xl transition-all z-40">
