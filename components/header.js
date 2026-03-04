@@ -12,8 +12,8 @@ const Header = () => {
             
             <nav class="hidden md:flex space-x-6">
                 <button onclick="scrollToTop()" class="font-medium hover:text-primary dark:hover:text-secondary transition">Home</button>
-                <button onclick="showModal('about')" class="font-medium hover:text-primary dark:hover:text-secondary transition">About Us</button>
-                <button onclick="showModal('contact')" class="font-medium hover:text-primary dark:hover:text-secondary transition">Contact Us</button>
+                <button onclick="showModal('/about')" class="font-medium hover:text-primary dark:hover:text-secondary transition">About Us</button>
+                <button onclick="showModal('/contact')" class="font-medium hover:text-primary dark:hover:text-secondary transition">Contact Us</button>
                 <button onclick="showChatHistory()" class="font-medium hover:text-primary dark:hover:text-secondary transition flex items-center gap-1">
                     <i class="fas fa-comment-dots"></i> My Chats
                 </button>
