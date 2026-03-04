@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - AI Caption Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: { primary: '#4f46e5', secondary: '#7c3aed', dark: '#0f172a', 'dark-card': '#1e293b' }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-text { background: linear-gradient(90deg, #4f46e5, #7c3aed); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .cosmic-pattern { background-image: radial-gradient(circle at 50% 50%, rgba(79, 70, 229, 0.1) 1px, transparent 1px); background-size: 20px 20px; }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-dark text-gray-800 dark:text-gray-200 transition-colors duration-300 cosmic-pattern">
+
+    <div id="header-placeholder"></div>
+
+    <main class="py-16 md:py-24">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h1 class="text-4xl font-bold mb-8"><span class="gradient-text">Privacy Policy</span></h1>
+            
+            <div class="bg-white dark:bg-dark-card rounded-2xl p-8 shadow-xl border border-gray-200 dark:border-gray-700 space-y-6">
+                <section>
+                    <h2 class="text-2xl font-bold mb-3">1. Information We Collect</h2>
+                    <p class="text-gray-600 dark:text-gray-400">We collect information you provide directly to us when using the AI Caption Generator, including chat inputs, email addresses for newsletters, and technical data like IP addresses to ensure service stability.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold mb-3">2. How We Use Your Data</h2>
+                    <p class="text-gray-600 dark:text-gray-400">Your data is primarily used to process AI requests via Google Gemini API. We do not sell your personal data to third parties. We use cookies to remember your theme preferences and session data.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold mb-3">3. Data Security</h2>
+                    <p class="text-gray-600 dark:text-gray-400">We implement industry-standard encryption to protect your data. However, please be aware that no method of transmission over the internet is 100% secure.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold mb-3">4. Third-Party Services</h2>
+                    <p class="text-gray-600 dark:text-gray-400">Our service utilizes Google Gemini. Use of our tool is also subject to Google's Privacy Policy and AI Principles.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
