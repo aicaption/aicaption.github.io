@@ -11,12 +11,9 @@ const Header = () => {
             </div>
             
             <nav class="hidden md:flex space-x-6">
-                <button onclick="scrollToTop()" class="font-medium hover:text-primary dark:hover:text-secondary transition">Home</button>
-                <button onclick="showModal('/about')" class="font-medium hover:text-primary dark:hover:text-secondary transition">About Us</button>
-                <button onclick="showModal('/contact')" class="font-medium hover:text-primary dark:hover:text-secondary transition">Contact Us</button>
-                <button onclick="showChatHistory()" class="font-medium hover:text-primary dark:hover:text-secondary transition flex items-center gap-1">
-                    <i class="fas fa-comment-dots"></i> My Chats
-                </button>
+                <a href="/" class="font-medium hover:text-primary dark:hover:text-secondary transition">Home</a>
+                <a href="/about" class="font-medium hover:text-primary dark:hover:text-secondary transition">About Us</a>
+                <a href="/contact" class="font-medium hover:text-primary dark:hover:text-secondary transition">Contact Us</a>
             </nav>
             
             <div class="flex items-center space-x-4">
@@ -24,28 +21,23 @@ const Header = () => {
                     <i class="fas fa-moon dark:hidden"></i>
                     <i class="fas fa-sun hidden dark:block"></i>
                 </button>
-                <button id="openChatBtn" class="gradient-bg hover:opacity-90 text-white px-4 py-2 rounded-lg font-medium transition">
+                <a href="/#chat" class="gradient-bg hover:opacity-90 text-white px-4 py-2 rounded-lg font-medium transition">
                     Start Chat
-                </button>
+                </a>
                 <button id="mobileMenuBtn" class="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
         </div>
 
-        <!-- Mobile Menu -->
         <div id="mobileMenu" class="md:hidden hidden bg-white dark:bg-dark-card border-t border-gray-200 dark:border-gray-700">
             <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
-                <button onclick="scrollToTop()" class="text-left py-2 font-medium hover:text-primary dark:hover:text-secondary transition">Home</button>
-                <button onclick="showModal('about'); hideMobileMenu()" class="text-left py-2 font-medium hover:text-primary dark:hover:text-secondary transition">About Us</button>
-                <button onclick="showModal('contact'); hideMobileMenu()" class="text-left py-2 font-medium hover:text-primary dark:hover:text-secondary transition">Contact Us</button>
-                <button onclick="showChatHistory(); hideMobileMenu()" class="text-left py-2 font-medium hover:text-primary dark:hover:text-secondary transition flex items-center gap-2">
-                    <i class="fas fa-comment-dots"></i> My Chats
-                </button>
+                <a href="/" class="text-left py-2 font-medium hover:text-primary transition">Home</a>
+                <a href="/about" class="text-left py-2 font-medium hover:text-primary transition">About Us</a>
+                <a href="/contact" class="text-left py-2 font-medium hover:text-primary transition">Contact Us</a>
             </div>
         </div>
     </header>
   `;
 };
-
 export default Header;
