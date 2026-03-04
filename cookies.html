@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Policy - AI Caption Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: { 
+                        primary: '#4f46e5', 
+                        secondary: '#7c3aed', 
+                        dark: '#0f172a', 
+                        'dark-card': '#1e293b' 
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-text { background: linear-gradient(90deg, #4f46e5, #7c3aed); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .cosmic-pattern { background-image: radial-gradient(circle at 50% 50%, rgba(79, 70, 229, 0.1) 1px, transparent 1px); background-size: 20px 20px; }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-dark text-gray-800 dark:text-gray-200 transition-colors duration-300 cosmic-pattern">
+
+    <div id="header-placeholder"></div>
+
+    <main class="py-16 md:py-24">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h1 class="text-4xl font-bold mb-8">Cookie <span class="gradient-text">Policy</span></h1>
+            
+            <div class="bg-white dark:bg-dark-card rounded-2xl p-8 shadow-xl border border-gray-200 dark:border-gray-700 space-y-6">
+                <section>
+                    <h2 class="text-2xl font-bold mb-3">What are Cookies?</h2>
+                    <p class="text-gray-600 dark:text-gray-400">Cookies are small text files stored on your device to help websites work efficiently and provide us with information about how you interact with our AI tools.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold mb-3">How We Use Cookies</h2>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-400">
+                        <li><strong>Essential Cookies:</strong> Necessary for the website to function, such as maintaining your dark mode preference.</li>
+                        <li><strong>Analytical Cookies:</strong> Helping us understand how users navigate the site to improve the Gemini AI experience.</li>
+                        <li><strong>Functional Cookies:</strong> Used to remember your chat history locally in your browser.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold mb-3">Managing Your Preferences</h2>
+                    <p class="text-gray-600 dark:text-gray-400">Most web browsers allow you to control cookies through their settings. Please note that disabling cookies may affect the functionality of our AI chat features.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
